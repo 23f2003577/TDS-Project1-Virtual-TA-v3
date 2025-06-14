@@ -1,8 +1,4 @@
-fastapi
-uvicorn[standard]
 sentence-transformers==2.2.2
+faiss-cpu==1.7.4 --extra-index-url https://pypi.anaconda.org/conda-forge/simple
 numpy
 requests
-
-# Use prebuilt FAISS from conda-forge wheels (via extra-index-url)
-faiss-cpu==1.7.4 --extra-index-url https://pypi.anaconda.org/conda-forge/simple
